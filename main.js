@@ -31,7 +31,7 @@ if (state == state.toUpperCase() && state.length == 2) {
 if (maritalStatus.charAt(0) == 'y' || 'Y' && maritalStatus.length == 3) {
   document.getElementById('marital-status').innerHTML = "Married?: " + maritalStatus;
 } else if (maritalStatus.charAt(0) == 'n' || 'N') {
-  document.getElementById('marital-status').innerHTML = "no";
+  document.getElementById('marital-status').innerHTML = "Married?: no";
 } else {
   document.getElementById('marital-status').innerHTML = "unknown";
 }
